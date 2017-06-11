@@ -1,0 +1,11 @@
+Debug
+ipch
+*.obj
+*.tlog
+*.exe
+*.dll
+*.lib
+*.res
+*.opensdf
+*.sdf
+*.suo
