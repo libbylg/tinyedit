@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyeditor", "tinyeditor.vcxproj", "{DECBA2AE-046B-44F7-9590-BA492252C4EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECBA2AE-046B-44F7-9590-BA492252C4EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DECBA2AE-046B-44F7-9590-BA492252C4EC}.Debug|Win32.Build.0 = Debug|Win32
+		{DECBA2AE-046B-44F7-9590-BA492252C4EC}.Release|Win32.ActiveCfg = Release|Win32
+		{DECBA2AE-046B-44F7-9590-BA492252C4EC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

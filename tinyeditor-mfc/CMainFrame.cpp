@@ -99,6 +99,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	if (!m_wndStatusBar.Create(this))
 	{
+
 		TRACE0("未能创建状态栏\n");
 		return -1;      // 未能创建
 	}
@@ -107,8 +108,10 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	// TODO: 如果您不希望工具栏和菜单栏可停靠，请删除这五行
 	m_wndMenuBar.EnableDocking(CBRS_ALIGN_ANY);
 	m_wndToolBar.EnableDocking(CBRS_ALIGN_ANY);
-	EnableDocking(CBRS_ALIGN_ANY);
-	DockPane(&m_wndMenuBar);
+    m_wndStatusBar.EnableDocking(CBRS_ALIGN_ANY);
+    EnableDocking(CBRS_ALIGN_ANY);
+
+    DockPane(&m_wndMenuBar);
 	DockPane(&m_wndToolBar);
 
 

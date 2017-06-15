@@ -136,6 +136,12 @@
     <ClInclude Include="CTinyEditorApp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CAboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -169,6 +175,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CTinyEditorApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TE.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
